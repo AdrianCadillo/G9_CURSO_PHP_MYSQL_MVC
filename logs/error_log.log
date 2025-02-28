@@ -1,0 +1,4 @@
+[28-Feb-2025 03:06:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Prsona" not found in C:\xampp\htdocs\curso_php_mysql\clase02\debug.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\curso_php_mysql\clase02\debug.php on line 11
