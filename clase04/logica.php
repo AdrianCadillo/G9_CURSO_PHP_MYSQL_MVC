@@ -95,6 +95,7 @@ if($accion === 'calcular-salario'){
         }else{
            if($accion === 'signo-zodiacal'){
              $FechaNacimiento = $_POST["fecha"];
+              //// SE REQUIERE QUE USTEDES VALIDEN EL CAMPO FECHA , SI SE INGRESO UNA FECHA,LUEGO COMPLETAR PARA LAS 8 MESES RESTANTES
 
              /// convertir la fecha en segundos
              $CantidadSegundos = strtotime($FechaNacimiento);

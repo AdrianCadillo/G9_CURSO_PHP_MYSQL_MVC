@@ -21,7 +21,7 @@ if (PHP_SESSION_ACTIVE !== session_status()) {
             <div class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
                 <span class="font-medium">Mensaje del sistema!!</span> <?php echo $_SESSION["response"]; ?>.
             </div>
-        <?php endif;?>
+        <?php unset($_SESSION["response"]); endif;?>
         <form action="logica.php?accion=signo-zodiacal" method="post">
             <input type="date" class="border border-spacing-2 w-full p-2 rounded-md shadow-sm
             focus:outline-none focus:ring-2 focus:ring-blue-700 mb-2
